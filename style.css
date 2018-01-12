@@ -540,7 +540,9 @@ p {
     color: #114;
     font-weight: 400;
 }
-
+.middleleft{
+    font-size: 28px;
+}
 .middletitle {
     font-size: 28px;
     font-family: Arial, Helvetica, sans-serif;
@@ -652,7 +654,7 @@ p {
 }
 
 .details_field {
-    padding: 50px 150px;
+    padding: 50px 100px;
     font-family:latoBold;
 }
 

@@ -1,3 +1,11 @@
+@media (min-width: 1200px) and (max-width: 1410px) {
+    .russiantitle{
+        font-size: 28px;
+    }
+    .russiancontent{
+        font-size: 20px;
+    }
+}
 @media (min-width: 992px) and (max-width: 1199px) {
     .menu_area .navbar-brand {
         font-size: 42px;
@@ -47,7 +55,7 @@
         float: right;
     }
     .abouttitle {
-        font-size: 40px;
+        font-size: 30px;
         font-family: latoThin;
         font-weight: 3;
         color: #111446;
@@ -97,9 +105,21 @@
     .details_field{
         padding:50px 50px
     }
+    .russiantitle{
+        font-size:28px;
+    }
+    .russiancontent{
+        font-size: 20px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+    .russiantitle{
+        font-size:24px;
+    }
+    .russiancontent{
+        font-size: 20px;
+    }
     .details_field{
         padding:50px 50px
     }
@@ -212,7 +232,7 @@
         height: 400px;
     }
     .abouttitle {
-        font-size: 30px;
+        font-size: 24px;
         font-family: latoThin;
         font-weight: 3;
         color: #111446;
@@ -270,6 +290,15 @@
     }
     .header_area.sticky {
         height: 50px;
+    }
+    .abouttitle {
+        font-size: 20px;
+        font-family: latoThin;
+        font-weight: 3;
+        color: #111446;
+        position: relative;
+        font-weight: 400;
+        z-index: 3;
     }
     .header_area .menu_area #nav .nav-link,
     .header_area.sticky .menu_area #nav .nav-link {
