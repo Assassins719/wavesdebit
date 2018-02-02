@@ -359,7 +359,9 @@ p {
     line-height: 1;
     padding: 0;
 }
-
+.btn_float{
+    margin-left:auto;margin-right:20px;
+}
 .menu_area .navbar-brand:hover,
 .menu_area .navbar-brand:focus {
     color: #fff;

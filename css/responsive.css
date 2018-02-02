@@ -111,9 +111,12 @@
         font-size: 20px;
     }
 }
-@media (min-width: 320px) and (max-width: 770px) {
+@media (min-width: 320px) and (max-width: 760px) {
     .header_area.sticky {
         height:100px;
+    }
+    .btn_float{
+        margin-left: 20px!important;
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -137,17 +140,18 @@
         font-size: 48px;
     }
     .header_area.sticky {
+        padding-top: 10px;
     }
     .header_area .menu_area #nav .nav-link,
     .header_area.sticky .menu_area #nav .nav-link {
         padding: 7.5px 15px;
     }
-    /* #ca-navbar {
+    #ca-navbar {
         padding: 30px;
         border-radius: 3px;
-        background-color: #5b32b4;
+        background-color: #284070;
         text-align: left;
-    } */
+    }
     .sing-up-button {
         margin-top: 30px;
         text-align: left;

@@ -31,34 +31,39 @@
 
     <!-- ***** Header Area Start ***** -->
     <header class="header_area animated">
-        <div class="container-fluid" style="margin-top:10px">
+        <div class="container-fluid">
             <div class="row align-items-center">
                 <!-- Menu Area Start -->
-                <div class="col-9 col-md-3">
-                    <img src="img/core-img/logo.png" alt="" ng-href="#">
-                </div>
-                <div class="col-md-6">
-                    <a style="font-size:24px;color:#fff;margin:0px 20px 0px 20px" target="_blank">
-                        Company
-                    </a>
-                    <a style="font-size:24px;color:#fff;margin:0px 20px 0px 20px" target="_blank">
-                        Roadmap
-                    </a>
-                    <a style="font-size:24px;color:#fff;margin:0px 20px 0px 20px" target="_blank">
-                        Whitepaper
-                    </a>
-                </div>
-                <!-- Signup btn -->
-                <div class="btn-group col-md-3">
-                    <div class="drop-down" style="border:1px white solid;padding:2px;border-radius:2px;width:170px;background-repeat:no-repeat;">
-                        <select name="options" style="border:1px white solid;padding:2px;border-radius:2px;width:170px;background-repeat:no-repeat;">
-                            <option class="en" value="en" style="background-image:url('img/core-img/us.jpg'); ">English</option>
-                            <option class="fr" value="jp" style="background-image:url('img/core-img/jp.jpg');">Japanese</option>
-                            <option class="nl" value="br" style="background-image:url('img/core-img/br.jpg');">Portuguese</option>
-                            <option selected="selected" class="nl" value="rs" style="background-image:url('img/core-img/rs.jpg');">Russian</option>                    
-                            <option class="nl" value="ch" style="background-image:url('img/core-img/ch.jpg');">Chinese</option>
-                            <option class="nl" value="ko" style="background-image:url('img/core-img/ko.jpg');">Korean</option>
-                        </select>
+                <div class="col-12 col-lg-12">
+                    <div class="menu_area">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <!-- Logo -->
+                            <div class="col-md-3 col-sm-12 top_logo" style="text-align:center">
+                                <img src="img/core-img/logo.png" alt="" ng-href="#" style="margin:auto">
+                            </div>
+                            
+                            <button class="navbar-toggler btn_float" type="button" data-toggle="collapse" data-target="#ca-navbar" aria-controls="ca-navbar" aria-expanded="false" aria-label="Toggle navigation" ><span class="navbar-toggler-icon"></span></button>
+                            
+                            <div class="drop-down lngtab" style="float:right">
+                                <select name="options lngtab">
+                                    <option class="en" value="en" style="background-image:url('img/core-img/us.jpg'); ">English</option>
+                                    <option class="fr" value="jp" style="background-image:url('img/core-img/jp.jpg');">Japanese</option>
+                                    <option class="nl" value="br" style="background-image:url('img/core-img/br.jpg');">Portuguese</option>
+                                    <option selected="selected" class="nl" value="rs" style="background-image:url('img/core-img/rs.jpg');">Russian</option>
+                                    <option class="nl" value="ch" style="background-image:url('img/core-img/ch.jpg');">Chinese</option>
+                                    <option class="nl" value="ko" style="background-image:url('img/core-img/ko.jpg');">Korean</option>
+                                </select>
+                            </div>
+
+                            <!-- Menu Area -->
+                            <div class="collapse navbar-collapse" id="ca-navbar" style="float:left">
+                                <ul class="navbar-nav ml-auto" id="nav">
+                                    <li class="nav-item"><a class="nav-link" href="#" onClick="return false;">Company</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#" onClick="return false;">Roadmap</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#" onClick="return false;">Whitepaper</a></li>
+                                </ul>
+                            </div>
+                        </nav>
                     </div>
                 </div>
             </div>
