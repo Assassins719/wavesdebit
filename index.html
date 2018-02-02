@@ -29,44 +29,46 @@
         <div class="colorlib-load"></div>
     </div>
 
-    <!-- ***** Header Area Start ***** -->
+
     <header class="header_area animated">
-        <div class="container-fluid" style="margin-top:10px">
+        <div class="container-fluid">
             <div class="row align-items-center">
                 <!-- Menu Area Start -->
-                <div class="col-9 col-md-9">
-                    <img src="img/core-img/logo.png" alt="" ng-href="#">
+                <div class="col-12 col-lg-12">
+                    <div class="menu_area">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <!-- Logo -->
+                            <div class="col-md-3 col-sm-12 top_logo">
+                                <img src="img/core-img/logo.png" alt="" ng-href="#">
+                            </div>
+                            
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ca-navbar" aria-controls="ca-navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                            
+                            <div class="drop-down lngtab" style="float:right">
+                                <select name="options lngtab">
+                                    <option selected="selected" class="en" value="en" style="background-image:url('img/core-img/us.jpg'); ">English</option>
+                                    <option class="fr" value="jp" style="background-image:url('img/core-img/jp.jpg');">Japanese</option>
+                                    <option class="nl" value="br" style="background-image:url('img/core-img/br.jpg');">Portuguese</option>
+                                    <option class="nl" value="rs" style="background-image:url('img/core-img/rs.jpg');">Russian</option>
+                                    <option class="nl" value="ch" style="background-image:url('img/core-img/ch.jpg');">Chinese</option>
+                                    <option class="nl" value="ko" style="background-image:url('img/core-img/ko.jpg');">Korean</option>
+                                </select>
+                            </div>
 
-                    <a style="font-size:24px;color:#fff;margin:0px 20px 0px 20px" target="_blank">
-                        Company
-                    </a>
-
-                    <a style="font-size:24px;color:#fff;margin:0px 20px 0px 20px" target="_blank">
-                        Roadmap
-                    </a>
-                    
-                    <a style="font-size:24px;color:#fff;margin:0px 20px 0px 20px" target="_blank">
-                        Whitepaper
-                    </a>
-                </div>
-                <!-- Signup btn -->
-                <div class="btn-group col-md-3">
-                    <div class="drop-down" style="border:1px white solid;padding:2px;border-radius:2px;width:170px;background-repeat:no-repeat;">
-                        <select name="options" style="border:1px white solid;padding:2px;border-radius:2px;width:170px;background-repeat:no-repeat;">
-                            <option selected="selected" class="en" value="en" style="background-image:url('img/core-img/us.jpg'); ">English</option>
-                            <option class="fr" value="jp" style="background-image:url('img/core-img/jp.jpg');">Japanese</option>
-                            <option class="nl" value="br" style="background-image:url('img/core-img/br.jpg');">Portuguese</option>
-                            <option class="nl" value="rs" style="background-image:url('img/core-img/rs.jpg');">Russian</option>
-                            <option class="nl" value="ch" style="background-image:url('img/core-img/ch.jpg');">Chinese</option>
-                            <option class="nl" value="ko" style="background-image:url('img/core-img/ko.jpg');">Korean</option>
-                        </select>
+                            <!-- Menu Area -->
+                            <div class="collapse navbar-collapse" id="ca-navbar" style="float:left">
+                                <ul class="navbar-nav ml-auto" id="nav">
+                                    <li class="nav-item active"><a class="nav-link" href="#home">Company</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#about">Roadmap</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#features">Whitepaper</a></li>
+                                </ul>
+                            </div>
+                        </nav>
                     </div>
                 </div>
             </div>
         </div>
     </header>
-    <!-- ***** Header Area End ***** -->
-
     <!-- ***** Wellcome Area Start ***** -->
     <section class="wellcome_area clearfix" id="home">
         <div class="h-100">
@@ -99,7 +101,7 @@
     <!-- ***** Special Area Start ***** -->
     <section class="special-area bg-white" id="about">
         <div class="about_top clearfix">
-            <div class="about_top_left col-md-6 col-sm-12 col-lg-6">
+            <div class="about_top_left col-md-6 col-lg-6">
             </div>
             <div class="about_top_right col-md-6 col-sm-12 col-lg-6">
                 <div style="margin:auto">
@@ -130,13 +132,12 @@
     </section>
     <!-- ***** Special Area End ***** -->
     <section class="four-special-area clearfix" id="middle">
-        <div class="middle_left col-md-6 col-sm-12 col-lg-6">
+        <div class="middle_left col-md-6 col-lg-6 col-sm-12">
             <div class="middle_top_left col-sm-12">
             </div>
             <div class="middle_bottom_left col-sm-12">
                 <p class="middlelefttitle">
-                    Whenever you use
-                    <br> the WavesDebit Card,
+                    Whenever you use the WavesDebit Card,
                 </p>
                 <p class="middleleft">
                     a transaction entry will instantly appear in the WavesDebit App displaying the business name, Establishment type, and amount
@@ -176,7 +177,7 @@
                 into your WavesDebit App and spending it with your WavesDebit Card.
                 <br>
                 <br>
-                <b>ASSET ID: 4djvyCBpWRdsbUhLXWY6CrP3JjmJvvFvPGe9GBmkt2q8</b>
+                <b class="assetsid">ASSET ID: 4djvyCBpWRdsbUhLXWY6CrP3JjmJvvFvPGe9GBmkt2q8</b>
             </p>
         </div>
     </section>
@@ -221,27 +222,27 @@
                 <div class="col-md-7 row">
                     <div class="col-md-4" style="padding-top:5px;font-family:latoThin;color:#114;font-size:24px;vertical-align:middle;">Time Frame:</div>
                     <div class="col-md-8">
-                        <span style="font-size:32px;font-family:latoRegular;vertical-align:middle;">January 29th 18:00 GMT</span>
+                        <span class="detail_font">January 29th 18:00 GMT</span>
                     </div>
 
                     <div class="col-md-4" style="padding-top:5px;font-family:latoThin;color:#114;font-size:24px;"> Asset Rate:</div>
                     <div class="col-md-8">
-                        <span style="font-size:32px;font-family:latoRegular">1 Waves Token = 9 Debit</span>
+                        <span class="detail_font">1 Waves Token = 9 Debit</span>
                     </div>
 
                     <div class="col-md-4" style="padding-top:5px;font-family:latoThin;color:#114;font-size:24px;">Asset Distributed:</div>
                     <div class="col-md-8">
-                        <span style="font-size:32px;font-family:latoRegular">6,000,000 Debit</span>
+                        <span class="detail_font">6,000,000 Debit</span>
                     </div>
                 </div>
                 <div class="col-md-5 row">
                     <div class="col-md-7" style="padding-top:5px;font-family:latoThin;color:#114;font-size:24px;vertical-align:middle;">Early Sale Discount:</div>
                     <div class="col-md-5">
-                        <span style="font-size:32px;font-family:latoRegular;vertical-align:middle;">20% Bonus</span>
+                        <span class="detail_font">20% Bonus</span>
                     </div>
                     <div class="col-md-7" style="padding-top:5px;font-family:latoThin;color:#114;font-size:24px;vertical-align:middle;">Currency Accepted:</div>
                     <div class="col-md-5">
-                        <span style="font-size:32px;font-family:latoRegular;vertical-align:middle;">Waves</span>
+                        <span class="detail_font">Waves</span>
                     </div>
                 </div>
             </div>
@@ -252,27 +253,27 @@
             <div style="position:relative;bottom:30px;width:100px;height:2px;background:#444;"></div>
             <div class="row">
                 <div class="col-md-8 row">
-                        <div class="col-md-4" style="padding-top:5px;font-family:latoThin;color:#114;font-size:24px;vertical-align:middle;">Start Date:</div>
-                        <div class="col-md-8">
-                            <span style="font-size:32px;font-family:latoRegular;vertical-align:middle;">Feburary 27th 18:00 GMT</span>
-                        </div>
-    
-                        <div class="col-md-4" style="padding-top:5px;font-family:latoThin;color:#114;font-size:24px;">Assets Distributed:</div>
-                        <div class="col-md-8">
-                            <span style="font-size:32px;font-family:latoRegular">24,000,000 Debit</span>
-                        </div>
-    
-                        <div class="col-md-4" style="padding-top:5px;font-family:latoThin;color:#114;font-size:24px;"> Goal:</div>
-                        <div class="col-md-8">
-                            <span style="font-size:32px;font-family:latoRegular">3,262,500 Waves</span>
-                        </div>
+                    <div class="col-md-4" style="padding-top:5px;font-family:latoThin;color:#114;font-size:24px;vertical-align:middle;">Start Date:</div>
+                    <div class="col-md-8">
+                        <span class="detail_font">Feburary 27th 18:00 GMT</span>
+                    </div>
 
-                        <div class="col-md-4" style="padding-top:5px;font-family:latoThin;color:#114;font-size:24px;"> Currency Accepted:</div>
-                        <div class="col-md-8">
-                            <span style="font-size:32px;font-family:latoRegular">Waves, WBTC, WLTC, WETH, WZCASH</span>
-                        </div>
+                    <div class="col-md-4" style="padding-top:5px;font-family:latoThin;color:#114;font-size:24px;">Assets Distributed:</div>
+                    <div class="col-md-8">
+                        <span class="detail_font">24,000,000 Debit</span>
+                    </div>
+
+                    <div class="col-md-4" style="padding-top:5px;font-family:latoThin;color:#114;font-size:24px;"> Goal:</div>
+                    <div class="col-md-8">
+                        <span class="detail_font">3,262,500 Waves</span>
+                    </div>
+
+                    <div class="col-md-4" style="padding-top:5px;font-family:latoThin;color:#114;font-size:24px;"> Currency Accepted:</div>
+                    <div class="col-md-8">
+                        <span class="detail_font">Waves, WBTC, WLTC, WETH, WZCASH</span>
+                    </div>
                 </div>
-                <div class="col-md-4" style="text-align:left">
+                <div class="col-md-4" style="text-align:center;margin-top:30px;">
                     <img src="img/core-img/lasticon.png" />
                 </div>
             </div>
@@ -286,8 +287,9 @@
         <div class="row">
             <div class="col-md-6 col-sm-12">
                 <img src="img/core-img/logo.png">
+                <div style="width:100%;height:30px"></div>
             </div>
-            <div class="col-md-6 col-sm-12 row" style="text-align:center">
+            <div class="col-md-3 col-sm-12 row" style="text-align:center">
                 <div class="footer-social-icon" style="margin:auto">
                     <div style="text-align:left;color:#fff">
                         FOLLOW US
@@ -305,7 +307,10 @@
                         <i class="fa fa-instagram" aria-hidden="true"></i>
                     </a>
                 </div>
-                <div style="margin:auto">
+                <div style="width:100%;height:30px"></div>
+            </div>
+            <div class="col-md-3 col-sm-12 row" style="text-align:center">
+                <div style="margin:auto;margin-top:0px;">
                     <div style="text-align:left;color:#fff">
                         EMAIL
                     </div>
@@ -345,8 +350,8 @@
                     '>' + jQuery(this).text() + '</span></li>');
             });
             jQuery('.drop-down .button').html('<span class="flag-span" style=background-image:' + jQuery(
-                    '.drop-down select').find(
-                    ':selected').css('background-image') + '>' + jQuery('.drop-down select').find(
+                '.drop-down select').find(
+                ':selected').css('background-image') + '>' + jQuery('.drop-down select').find(
                     ':selected').text() + '</span>' +
                 '<a href="javascript:void(0);" class="select-list-link"><img src="img/core-img/downarrow.png" width="28" height="28" /></a>'
             );

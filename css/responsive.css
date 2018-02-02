@@ -93,7 +93,6 @@
         height: 1300px;
     }
     .middle_bottom_left {
-        height: 400px;
         padding: 50px 75px;
     }
     .middlelefttitle {
@@ -112,8 +111,16 @@
         font-size: 20px;
     }
 }
-
+@media (min-width: 320px) and (max-width: 770px) {
+    .header_area.sticky {
+        height:100px;
+    }
+}
 @media (min-width: 768px) and (max-width: 991px) {
+
+    .assetsid{
+        font-size:14px!important;
+    }
     .russiantitle{
         font-size:24px;
     }
@@ -130,7 +137,6 @@
         font-size: 48px;
     }
     .header_area.sticky {
-        
     }
     .header_area .menu_area #nav .nav-link,
     .header_area.sticky .menu_area #nav .nav-link {
@@ -266,7 +272,7 @@
         height: 1150px;
     }
     .middle_bottom_left {
-        height: 400px;
+        /* height: 400px; */
         padding: 50px 50px;
     }
     .middlelefttitle {
@@ -278,7 +284,67 @@
     }
 }
 
+@media (min-width: 100px) and (max-width: 320px) {
+    .assetsid{
+        font-size:6px!important;
+    }
+}
+@media (min-width: 320px) and (max-width: 450px) {
+    .assetsid{
+        font-size:10px!important;
+    }
+    .welcometitle{
+        font-size: 30px;
+    }
+    .russiancontent{
+        font-size: 18px!important;
+    }
+    .aboutrussian{
+        font-size: 20px!important;
+    }
+    .aboutdescrussian{
+        font-size: 18px!important;
+    }
+}
+
+@media (min-width: 450px) and (max-width: 767px) {
+    .assetsid{
+        font-size:14px!important;
+    }
+    .welcometitle{
+        font-size: 40px;
+    }
+
+}
 @media (min-width: 320px) and (max-width: 767px) {
+    .detail_font{
+        font-size:24px;
+    }
+    .bottomrighttitle {
+        font-size: 24px;
+        font-family: latoRegular;
+        color: #fff;
+        left: 75px;
+        z-index: 3;
+    }
+    .about_top{
+        height:420px!important;
+    }
+    .about_top_left{
+        display: none;
+    }
+    .about_bottom_left{
+        display: none;
+    }
+    .about_top_right{
+        margin: auto;
+        padding: 50px 50px;
+        float: right;
+        width: 100%;
+    }
+    .middleleft{
+        font-size:24px;
+    }
     .details_field{
         padding:50px 50px
     }
@@ -289,7 +355,7 @@
         font-size: 48px;
     }
     .header_area.sticky {
-        height: 50px;
+        /* height: 50px; */
     }
     .abouttitle {
         font-size: 20px;
@@ -307,7 +373,7 @@
     #ca-navbar {
         padding: 20px;
         border-radius: 3px;
-        background-color: #5b32b4;
+        background-color: #284070;
         text-align: left;
     }
     .sing-up-button {
@@ -424,7 +490,6 @@
         height: 1550px;
     }
     .middle_bottom_left {
-        height: 400px;
         padding: 50px 50px;
     }
     .middlelefttitle {

@@ -342,6 +342,7 @@ p {
 :: 2.0 Header Area CSS
 -------------------------- */
 
+
 .header_area {
     left: 0;
     position: absolute;
@@ -350,7 +351,6 @@ p {
     top: 0;
     padding: 0% 7%;
 }
-
 .menu_area .navbar-brand {
     font-size: 72px;
     font-weight: 700;
@@ -452,7 +452,9 @@ p {
     background-size: cover;
     padding: 0 9%;
 }
-
+.lngtab{
+    border:1px white solid;padding:2px;border-radius:2px;width:170px;
+}
 .wellcome_area:after {
     position: absolute;
     width: 100%;
@@ -554,7 +556,6 @@ p {
     position: absolute;
     bottom: 0;
     left: 0;
-    height: 500px;
 }
 
 .card-area {
@@ -673,7 +674,6 @@ p {
     padding: 50px 50px;
     float: right;
     width: 100%;
-    height: 100%;
 }
 
 .about_bottom_left {
@@ -768,7 +768,9 @@ p {
     z-index: 3;
     color: #fff;
 }
-
+.detail_font{
+    font-size:32px;font-family:latoRegular;
+}
 .welcometitle {
     font-size: 50px;
     font-family: latoThin;
